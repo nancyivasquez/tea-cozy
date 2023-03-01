@@ -1,0 +1,133 @@
+*{
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    margin: 0;
+}
+body{
+    font-size: 22px;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    left: 0;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+ul{
+    padding: 10px 10px 10px 0px;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+}
+li a:hover{
+    opacity: 0.5;
+}
+main{
+    margin-top: 70px;
+    opacity: 0.9;
+    text-align: center;
+}
+#mission{
+    padding: 0px 40px 0px 40px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mission .background-container{
+    background-image: url(images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 315px 0px 315px 0px;
+    max-width: 1200px;
+    max-height: 700px;
+}
+.background-container h2{
+    width: 100%;
+    padding: 10px
+}
+.background-container h4{
+    width: 100%;
+    padding: 10px
+}
+#featured-tea{
+    padding: 70px;
+    max-width: 1000px;
+    margin: auto;
+}
+#featured-tea h2{
+    padding: 10px;
+    max-width: 100%;
+}
+#featured-tea h4{
+    padding: 10px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.img-container{
+    max-width: 1000px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-container figure{
+    padding: 10px;
+}
+#locations{
+    max-width: 1200px;
+    margin: auto;
+    background-image: url(images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 50px 150px 50px
+}
+#locations h2{
+    background-color: transparent;
+}
+.locations-container{
+    background-color: transparent;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+   margin-top: 15px;
+}
+@media (min-width: 600px){
+    .locations-container{
+        flex-direction: row;
+    }
+}
+.address{
+    width: 300px;
+    opacity: 1;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.address h3{
+    padding: 30px 0px;
+}
+.address p{
+    padding: 0px 0px 45px 0px;
+}
+footer{
+    text-align: center;
+}
+footer h2{
+    margin: 20px;
+}
+footer h5{
+    margin: 40px 0px 10px 0px;
+}
+.copyright{
+    text-align: left;
+    padding: 30px 20px;
+}
